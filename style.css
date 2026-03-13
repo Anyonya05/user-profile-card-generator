@@ -1,0 +1,63 @@
+.dark-mode{
+background:#121212;
+color:white;
+}
+
+.dark-mode .card{
+background:#1e1e1e;
+color:white;
+}
+
+.dark-mode input,
+.dark-mode textarea{
+background:#2c2c2c;
+color:white;
+border:1px solid #555;
+}
+
+body{
+font-family: Arial;
+background:#f3f4f6;
+text-align:center;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.form{
+display:flex;
+flex-direction:column;
+gap:10px;
+width:250px;
+}
+
+input, textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.card{
+width:280px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 25px rgba(0,0,0,0.2);
+}
+
+.card img{
+width:120px;
+height:120px;
+border-radius:50%;
+}
+
